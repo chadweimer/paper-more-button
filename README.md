@@ -1,4 +1,4 @@
-paper-more-button [![Travis state](https://travis-ci.org/chadweimer/paper-more-button.svg?branch=master)](https://travis-ci.org/chadweimer/paper-more-button) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@cwmr/paper-more-button)
+paper-more-button [![Travis state](https://travis-ci.org/chadweimer/paper-more-button.svg?branch=master)](https://travis-ci.com/chadweimer/paper-more-button) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@cwmr/paper-more-button)
 
 A material design button to load more items in a list. This element is built for [Polymer](https://www.polymer-project.org).
 
