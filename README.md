@@ -1,20 +1,16 @@
-paper-more-button [![Bower version](https://badge.fury.io/bo/paper-more-button.svg)](http://badge.fury.io/bo/paper-more-button) [![Travis state](https://travis-ci.org/Collaborne/paper-more-button.svg?branch=master)](https://travis-ci.org/Collaborne/paper-more-button) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-more-button)
-
-[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collabornepaper-more-button)
-[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collabornepaper-more-button.svg)](https://vaadin.com/directory/component/Collabornepaper-more-button)
-=========
+paper-more-button [![Travis state](https://travis-ci.org/chadweimer/paper-more-button.svg?branch=master)](https://travis-ci.com/chadweimer/paper-more-button) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@cwmr/paper-more-button)
 
 A material design button to load more items in a list. This element is built for [Polymer](https://www.polymer-project.org).
 
 To use this element:
 
-`bower install paper-more-button`
+`npm install @cwmr/paper-more-button`
 
 <!--
 ```
 <custom-element-demo>
   <template>
-    <link rel="import" href="paper-more-button.html">
+    <script type="module" src="paper-more-button.js"></script>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
@@ -33,7 +29,8 @@ To use this element:
 
     This software is licensed under the Apache 2 license, quoted below.
 
-    Copyright 2011-2015 Collaborne B.V. <http://github.com/Collaborne/>
+    Copyright 2011-2015 Collaborne B.V. <https://github.com/Collaborne/>
+    Copyright 2018 Chad Weimer <https://github.com/chadweimer/>
 
     Licensed under the Apache License, Version 2.0 (the "License"); you may not
     use this file except in compliance with the License. You may obtain a copy of
