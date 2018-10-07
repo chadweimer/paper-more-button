@@ -23,35 +23,35 @@
 	
 	<script type="module">
 		import { dom } from '@polymer/polymer/lib/legacy/polymer.dom.js';
-		suite('<paper-more-button>', function() {
-			suite('visibility behavior', function() {
+		suite('<paper-more-button>', () => {
+			suite('visibility behavior', () => {
 				var element;
 				
-				setup(function() {
+				setup(() => {
 					element = fixture('TrivialElement');
 				});
 				
-				test('shows button if more items are available', function() {
+				test('shows button if more items are available', () => {
 					expect(element._showMore(true, false)).to.be.eql(true);
 				});
-				test('hide button if no more items are available', function() {
+				test('hide button if no more items are available', () => {
 					expect(element._showMore(false, false)).to.be.eql(false);
 				});
-				test('hide button if loading', function() {
+				test('hide button if loading', () => {
 					expect(element._showMore(true, true)).to.be.eql(false);
 					expect(element._showMore(false, true)).to.be.eql(false);
 				});
 			});
 			
-			suite('tap behavior', function() {
+			suite('tap behavior', () => {
 				var element;
 				
-				setup(function() {
+				setup(() => {
 					element = fixture('TrivialElement');
 				});
 				
 				test('fires tap-more event when clicking button', function(done) {
-					element.addEventListener('tap-more', function() {
+					element.addEventListener('tap-more', () => {
 						done();
 					});
 					var button = dom(element.root).querySelector("paper-button");
