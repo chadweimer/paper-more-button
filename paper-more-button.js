@@ -1,3 +1,9 @@
+import '@polymer/polymer/polymer-legacy.js';
+
+import '@polymer/paper-button/paper-button.js';
+import '@polymer/paper-spinner/paper-spinner-lite.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import {html} from '@polymer/polymer/lib/utils/html-tag.js';
 /**
 A material design button to load more items in a list.
 
@@ -9,18 +15,6 @@ A material design button to load more items in a list.
 
 @demo demo/index.html
 */
-/*
-FIXME(polymer-modulizer): the above comments were extracted
-from HTML and may be out of place here. Review them and
-then delete this comment!
-*/
-import '@polymer/polymer/polymer-legacy.js';
-
-import '@polymer/paper-button/paper-button.js';
-import '@polymer/paper-spinner/paper-spinner-lite.js';
-import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
-import {html} from '@polymer/polymer/lib/utils/html-tag.js';
-
 Polymer({
     is: 'paper-more-button',
     _template: html`
